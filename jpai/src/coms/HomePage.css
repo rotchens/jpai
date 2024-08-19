@@ -1,0 +1,50 @@
+.HomePage{
+    display: 'flex';
+    min-height: 100vh;
+} 
+.sideArea{
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar{
+    margin: auto 5px;
+}
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-style: solid;
+    padding: 10px;
+}
+
+
+
+.dialog{
+    flex: 1;
+}
+
+.textArea{
+    /* TODO 动态height */
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.inputText{    
+box-sizing :border-box;
+width: 70%;
+height: 80%;
+resize: none;
+
+}
+
+.send{
+    background-color: aquamarine;
+    width: 80px;
+    height: 80%;
+}
